@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Contct us > Sennen-Cove.Com</title>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <link rel="stylesheet" href="style/style.css" type="text/css">
+    <meta name="description" content="Contact us">
+    
+    <!--Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+    
+    <div id="wrapper">
+            <div id="header">
+                
+                <div id="titleContainer">
+
+                    <p id="title" class="beta"><a href="index.html" title="Sennen-Cove.Com">Sennen-Cove.com</a></p>
+                    
+                </div>
+                
+                <div id="search">
+                    
+                    <form name="input" action="searchresults.html">
+                        <input type="text" id="searchBox">
+                        <input type="submit" value="Search" id="searchButton" >
+                    </form>
+                    
+                </div>
+                
+            </div><!-- Header -->
+
+            <div id="navigation">            
+                <ul id="main-navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="webcams.html">Webcams</a></li>
+                    <li><a href="localinformation.html">Local Information</a>
+                        <ul>
+                            <li><a href="http://www.sennen-cove.com/calendar.htm" title="Events Calendar" class="aNoExternal">Events Calendar</a></li>
+                            <li><a href="church.html">The Church</a></li>
+                            <li><a href="parishcouncil.html">Parish Council</a></li>
+                            <li><a href="http://www.sennen-cove.com/birds.htm" title="Local Bird Watching" class="aNoExternal">Bird Watching</a></li>
+                            <li><a href="http://www.sennen-cove.com/sennenmap.htm" title="Sennen Map" class="aNoExternal">Area Map</a></li>
+                            <li><a href="http://www.sennen-cove.com/guide.htm" class="aNoExternal">Area Guide</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="harbour.html">The Harbour</a>
+                        <ul>
+                            <li><a href="lifeboat.html" title="Sennen Lifeboat">Lifeboat</a></li>
+                            <li><a href="http://www.sennen-cove.com/sennenfish.htm" title="Fishing in sennen" class="aNoExternal">Fishing</a></li>
+                        </ul>
+                    
+                    </li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="surfing.html">Surfing</a></li>
+                    <li><a href="onlinstore.html" title="Online Store">Online Shop</a></li>
+                    <a href="shoppingcart.html" title="Shopping Cart">
+                    <img src="images/cartIcon.png" alt="Shopping Cart" class="right no_bottom"></a>
+                </ul>
+            </div>
+            
+        <div id="breadcrumb">
+            You are here: <a href="index.html" title="Home">Home</a> > <a href="contact.html" title="Contact">Contact us</a>
+        </div>
+
+            <div id="contentFullWidth">
+            
+                <h1>Contact us</h1>
+                
+                <p>Send us a message using the form below</p>
+                
+                
+                <form onsubmit="messageSentMessage()">
+                    <ul>
+                
+                        <li>
+                            <label class="description" for="element_1">Name *</label>
+                            <div>
+                                <input name="element_1" class="text medium border" type="text" maxlength="100" value="" />
+                            </div>
+                        </li>
+                        <li>
+                            <label class="description" for="element_2">Email *</label>
+                            <div>
+                                <input name="element_2" class="border text medium" type="text" maxlength="150" value="" />
+                            </div>
+                        </li>
+                        <li>
+                            <label for="element_3">Message Type</label>
+                            <div>
+                                <select class="border select medium" name="element_3">
+                                    <option value="" selected="selected"></option>
+                                    <option value="1">General Enquires</option>
+                                    <option value="2">Quiz answer submission</option>
+                                    <option value="3">Submit News Item</option>
+                
+                                </select>
+                            </div>
+                        </li>
+                        <li>
+                            <label class="description" for="element_4">Subject *</label>
+                            <div>
+                                <input name="element_4" class=" border text" type="text" maxlength="255"/>
+                            </div>
+                        </li>
+                        <li>
+                            <label class="description" for="element_5">Message *</label>
+                            <div>
+                                <textarea name="element_5" class=" border textarea large"></textarea>
+                            </div>
+                        </li>
+                
+                        <li class="buttons">
+                            <input class="button_text" type="submit" name="submit" value="Submit" />
+                        </li>
+                    </ul>
+                </form>
+                
+                <p>* denotes required field</p>
+                
+            </div>
+            
+            
+            
+            <div id="footer">
+            
+                <div id="footerLeft" class="leftContainer">
+                    <p>&copy; <a href="index.html">Sennen-Cove.Com</a></p>
+                </div>
+                
+                <div id="footerRight" class="rightContainer">
+                    <a href="index.html">Home</a> | 
+                    <a href="contact.html">Contact</a> | 
+                    <a href="sitemap.html">Sitemap</a> | 
+                    <a href="#">Top</a>
+                </div>      
+                
+            </div><!-- Footer -->
+
+    </div><!-- Container -->
+
+    <script type="text/javascript">
+    function messageSentMessage(){
+        alert("Thanks for getting in touch. Your message was succesfully sent.")
+    }
+    
+    </script>
+    
+</body>
+</html>
